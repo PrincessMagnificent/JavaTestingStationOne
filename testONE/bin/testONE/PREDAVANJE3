@@ -1,0 +1,38 @@
+PREDAVANJE 3
+
+označeni break, namesto da daš break za currently running loop, lahko narediš
+
+zunanja:
+	for {
+	}
+	break zunanja;
+	
+In z tem smo sigurni kateri loop točno bomo breakali.
+
+for (int i = 0M i < niz.length(); i++) {
+	if (niz.charAt(i) == something)
+}	//this is how we investigate strings
+
+niz.charAt(j++) najprej pogleda j in potem ga poveča
+
+boolean nasel
+
+println(nasel ? "Našel" : "Nisem našel."); 
+//ene sorte switch kjer napiše prvo ali drugo stvar gelede na to če je boolean našel TRUE ali FALSE
+
+METODE = FUNKCIJE (PROCEDURE, PODPROGRAMI)
+
+deklaracija metode:
+
+vrsta(public, private, static) tipRezultata(int, double, void če ne vrne nič) parametri, String[] args naprimer
+
+
+////
+import java.io.*;
+to vsebuj objekte za IO, ki niso del privzete knjižnice java.lang
+BufferedReader vhod = new BufferedReader(vt);
+String vrstica = vhod.readLine();
+
+
+Ujamemo napako z try-catch, in lovimo exception
+

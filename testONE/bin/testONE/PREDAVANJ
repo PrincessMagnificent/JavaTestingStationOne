@@ -1,0 +1,60 @@
+Objekt ima po dfaultu 3 metode, clone equals tostring
+
+pomemmbno ko klicemo konstrukotorje, 
+
+npr public Kabrio() (ki je podklass od avta)
+ce v konstruktor ne damo podatkov lahko damo default
+
+this(true, false) bo nasel prvi konstruktor v public Kabrio() ki ima prva dva argumenta booleantipa.
+
+@Override
+public void izpisiPodatke() // to pove kompilerju da hocemo overridat eno metodo v viisjem razredu
+
+inheritance:
+
+public class Kosara extends Posoda
+
+//posoda ima tezo in volumen ko cifre
+
+public Kosara()
+{ super(10,1); we've defiend a kosara as a posoda with a weight of 10 and a volume of 1
+this.stRdecihPotato = 0;
+this.stBelihPotato = 0;
+
+ali pa ce smo bolj precizni
+
+public Kosara (int red, int white, double vol, double weight) 
+{
+super(weight, vol);
+this.stRdecihPotato = red;
+this.stBelihPotato = white;
+}
+
+
+
+########################################
+SEZNAMI ARRAYLIST
+tabele ki se lahko povecajo
+ArrayList<> so podatkovni tipi ki so urejeni po vrsti ampak se samodejno poveca 
+BASIC FUNCTIONS
+		size
+		add
+		get
+		remove
+		
+POZOR v <> gre tip seznama ampak ne smes ga napisat kot osnovni podatkovni tip, NPR Integer namesto int
+
+import java.io.*;
+import java.util.*;
+
+prastevila = new ArrayList<Integer>();
+
+
+#####################
+glavni elementi razreda: konstruktorji, metode, polja (osnovne spremenljivke)
+
+razlika med konstruktorjem in metodo, konstruktor ustvari objekt, tipa kot je njegovo ime. 
+#######################
+UPORABNISKI UMESNIK (vaje 8)
+
+caution, classes from vaje 7 & 8 may conflict

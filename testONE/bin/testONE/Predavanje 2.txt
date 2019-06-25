@@ -1,0 +1,45 @@
+docs.oracle.com/javase/8/docs/api
+
+
+char znak = args[0].charAt(0);
+
+here we can find methods and packages
+
+if (pogoj) {
+	stavek;
+} else {
+	stavek;
+}
+
+// else if if you're doing a lot of them in a row
+
+switch (variable) { ## variable je lahko le byte, short, int ali char
+	case value1: stavek; [break;]
+	case value2: stavek; [break;]
+	case value3: stavek; [break;]
+	case value4: stavek; [break;]
+	case value5: stavek; [break;]
+	default: errormessage; break;  // the [] means it's optional, I could have just not written break at all
+	}
+	
+	//če pa v case ne napišemo nič, niti break; stavka, potem enostavno izvede naslednji case, tudi če tisti case ni real.
+	Tako da lahko za ene 5 case-ov ki naj imajo isti rezultat napišemo samo en stavek ki naj se izvede, in potem še 10 caseov ki naj imajo različen stavek ki naj se izvede, in seveda na koncu je default kar mora vedno biti ce naj se zgodi kaj resnega
+	
+	LOOP DE LOOP
+	
+	while (pogoj) {
+		stavek;
+	} //pogoj se testira pred vsako izvedbo stavka. While števec je < 11, ++števec
+	
+	do {
+		stavek;
+	} while (pogoj); // naredi stavek vsaj enkrat preden testira pogoj
+	
+	for (zacetek; pogoj; korak) {stavek;}
+	
+	Za sprehajanje po tabelah ali zbirkah/collections imamo boljso for
+	
+	for (spremenljvka: tabela) {stavek} // to je kot pythonov for x in y
+	
+	int[] tabela = {1,2,3,4,5,6,7}
+	for (int i: tabela) {stavki;}

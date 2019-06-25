@@ -1,0 +1,24 @@
+Stream je sekvenca niz podatkov ki tečejo v proces ali ven
+
+input stream /output stream, read/write
+
+Filtri toka spremenijo podatke dokler se berejo ali zapisujejo. (sprememba formata, enkripcija, kompresija)
+
+OUTPUTSTREAM
+	BASIC METHODS: 	write(int x)en byte od 0 do 255, write(byte []) več bajtov
+					read() prebere en bajt
+					
+					z finally poskrbimo da se toki zaprejo tudi če je exception in se try ne zaključi
+					
+inputstream in outputstrema lahko delata samo z bajti
+
+FILTRI
+	TOKOVI Z MEDPOMNILNIKOM BUFFERED STREAMS
+	saves data into buffer until its full or we flush it with flush()
+	then sends all data into output
+	gains on speed and useful for TCP segments
+	
+	
+Za predstavitev poovezave med client in server procesi, RAZREDI
+Socket je clientside
+ServerSocket je serverside
