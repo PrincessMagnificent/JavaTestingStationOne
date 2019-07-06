@@ -3,3 +3,5 @@ Email: yuri.yakasaki@tokyouni.com
 Phone No.: 223123
 
 here endeth the file
+
+here shall always endeth the file
